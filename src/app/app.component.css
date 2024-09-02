@@ -64,7 +64,11 @@ body, html {
 }
 
 footer {
-  height: 300px;
+  padding-top: 70px; /* Ajusta este valor si es necesario para que el footer no quede oculto detrás del navbar */
+}
+
+.navbar {
+  height: 70px; /* Ajusta este valor según la altura de tu navbar */
 }
 
 footer h5 {
@@ -95,4 +99,8 @@ footer .fa-2x {
 
 footer .ms-3 {
   margin-left: 1rem;
+}
+
+footer img {
+  max-width: 100%; /* Ajusta el tamaño del logo según el contenedor */
 }
