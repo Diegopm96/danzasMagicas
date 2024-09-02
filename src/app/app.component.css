@@ -1,0 +1,98 @@
+/* Estilos generales para la landing page */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  padding-top: 70px;
+}
+
+/* Clase para las secciones de 600px de altura */
+.section {
+  height: 600px;
+  width: 100%; /* Asegura que la sección ocupe todo el ancho */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Colores personalizados para las secciones */
+.section-1 {
+  background-color: white; /* Azul primario */
+  color: black;
+}
+
+.section-2 {
+  background-color: black; /* Gris oscuro */
+  color: white;
+}
+
+.section-3 {
+  background-color: white; /* Verde */
+  color: black;
+}
+
+/* Estilo adicional para los textos de las secciones */
+.section h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+.color-black{
+  color:black;
+}
+
+/* Estilo personalizado para el navbar */
+.navbar-right-margin {
+  margin-right: 200px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .section {
+      height: auto; /* Ajusta la altura en pantallas pequeñas */
+      padding: 50px 20px; /* Añade padding para mejorar el aspecto */
+  }
+
+  .section h1 {
+      font-size: 2rem;
+  }
+
+  .navbar-right-margin {
+      margin-right: 0;
+  }
+}
+
+footer {
+  height: 300px;
+}
+
+footer h5 {
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .fa-2x {
+  font-size: 2em;
+}
+
+footer .ms-3 {
+  margin-left: 1rem;
+}
